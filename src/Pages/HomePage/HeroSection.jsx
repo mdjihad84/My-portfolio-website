@@ -19,7 +19,7 @@ const HeroSection = () => {
                 <div className="flex absolute mt-[-175px] animate-move-vertical">
                     <div className="w-[295px] h-[110px] rounded-[28px] bg-[#111122] flex justify-center items-center border border-[#FFC107]">
                         <div className="w-[332px] text-center">
-                            <h3 className="text-[38px] text-white font-bold">8+</h3>
+                            <h3 className="text-[38px] text-white font-bold">08+</h3>
                             <p className="text-[#F5B711]">Month of Experience</p>
                         </div>
                     </div>

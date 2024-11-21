@@ -9,7 +9,7 @@ const CardSection = () => {
                 <h2 className='text-[55px] text-white font-semibold'>Portfolio</h2>
                 <p className='text-[#F5B711]'>MY Cases</p>
             </div>
-            <div className="flex justify-around my-16 gap-5">
+            <div className="flex justify-center my-16 gap-5">
                 <div className="mx-auto w-[440px] py-8 bg-[#1C222A] text-white rounded-2xl shadow-lg p-10 transform transition duration-300 hover:scale-105 hover:shadow-xl">
                     <img src={portfolio1} alt="" />
                     <h3 className="text-lg font-semibold uppercase mt-2 mb-[-10px]">

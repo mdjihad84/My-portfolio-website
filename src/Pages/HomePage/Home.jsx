@@ -2,6 +2,8 @@
 import Hero from "./HeroSection";
 import CardSection from "./CardSection";
 import Protfolio from "./Protfolio";
+import Testimonials from "./Testimonials";
+import ContactSection from "./ContactSection";
 import { Helmet } from "react-helmet-async";
 
 const Home = () => {
@@ -11,9 +13,11 @@ const Home = () => {
         <title>Car-Doctor | Home</title>
       </Helmet>
       <Hero/>
-      <div className="p-8">
+      <div className="p-6">
         <CardSection/>
         <Protfolio/>
+        <Testimonials/>
+        <ContactSection/>
       </div>
     </div>
   );
