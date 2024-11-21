@@ -111,7 +111,7 @@ const Header = () => {
                     </li>
                     <li>
                         <NavLink
-                            to="/courses"
+                            to="/Courses"
                             className="nav-link"
                             activeClassName="bg-[#f8b90c]"
                         >
