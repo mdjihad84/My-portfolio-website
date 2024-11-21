@@ -4,35 +4,38 @@ import ClientsImg3 from '../../assets/images/ryangladhill.jpg';
 
 const CardSection = () => {
     return (
-        <div className="">
-            <div className="text-center mt-24">
-                <h2 className='text-[55px] text-white font-semibold'>TESTIMONIALS</h2>
-                <p className='text-[#F5B711] font-semibold'>What my Clients are saying?</p>
+        <div className="p-4 lg:p-8">
+            <div className="text-center mt-12 lg:mt-24">
+                <h2 className='text-3xl lg:text-[55px] text-white font-semibold'>TESTIMONIALS</h2>
+                <p className='text-[#F5B711] font-semibold mt-4 text-lg'>What my Clients are saying?</p>
             </div>
-            <div className="flex justify-center my-16 gap-7">
-                <div className="mx-auto w-[455px] py-8 bg-[#1C222A] text-white rounded-2xl shadow-lg p-6 transform transition duration-300 hover:scale-105 hover:shadow-xl">
-                    <p className="mt-4 w-[370px] leading-[27px] text-white">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-24 my-8 lg:my-16 lg:ml-[-60px]">
+                {/* Testimonial 1 */}
+                <div className="mx-auto w-full lg:w-[420px] max-w-md py-8 bg-[#1C222A] text-white rounded-2xl shadow-lg p-6 transform transition duration-300 hover:scale-105 hover:shadow-xl">
+                    <p className="mt-4 leading-6 text-white">
                         He is a very nice guy to work with. Thanks a lot for helping and I will do more business with you 🙂
                     </p>
-                    <img className='rounded-full mt-6' src={ClientsImg1} alt="" />
-                    <h4 className='text-[#F8B90C] text-xl font-semibold my-2'>mbdevboston</h4>
-                    <h5 className='text-white text-xl font-semibold'>Designer</h5> 
+                    <img className='rounded-full mt-6 w-20 h-20 mx-auto' src={ClientsImg1} alt="Client 1" />
+                    <h4 className='text-[#F8B90C] text-xl font-semibold my-2 text-center'>mbdevboston</h4>
+                    <h5 className='text-white text-center text-lg font-medium'>Designer</h5> 
                 </div>      
-                <div className="mx-auto w-[455px] py-8 bg-[#1C222A] text-white rounded-2xl shadow-lg p-6 transform transition duration-300 hover:scale-105 hover:shadow-xl">
-                    <p className="mt-4 w-[370px] leading-[27px] text-white">
+                {/* Testimonial 2 */}
+                <div className="mx-auto w-full lg:w-[420px] max-w-md py-8 bg-[#1C222A] text-white rounded-2xl shadow-lg p-6 transform transition duration-300 hover:scale-105 hover:shadow-xl">
+                    <p className="mt-4 leading-6 text-white">
                         Great experience, highly recommend him. Worked through all my questions with me and was very timely in his responsiveness.
                     </p>
-                    <img className='rounded-full mt-6' src={ClientsImg2} alt="" />
-                    <h4 className='text-[#F8B90C] text-xl font-semibold my-2'>rossbrown</h4>
-                    <h5 className='text-white text-xl font-semibold'>Manager</h5> 
+                    <img className='rounded-full mt-6 w-20 h-20 mx-auto' src={ClientsImg2} alt="Client 2" />
+                    <h4 className='text-[#F8B90C] text-xl font-semibold my-2 text-center'>rossbrown</h4>
+                    <h5 className='text-white text-center text-lg font-medium'>Manager</h5> 
                 </div>      
-                <div className="mx-auto w-[455px] py-8 bg-[#1C222A] text-white rounded-2xl shadow-lg p-6 transform transition duration-300 hover:scale-105 hover:shadow-xl">
-                    <p className="mt-4 w-[370px] leading-[27px] text-white">
+                {/* Testimonial 3 */}
+                <div className="mx-auto w-full lg:w-[420px] max-w-md py-8 bg-[#1C222A] text-white rounded-2xl shadow-lg p-6 transform transition duration-300 hover:scale-105 hover:shadow-xl">
+                    <p className="mt-4 leading-6 text-white">
                         He is a very nice guy to work with. Thanks a lot for helping and I will do more business with you 🙂
                     </p>
-                    <img className='rounded-full mt-6' src={ClientsImg3} alt="" />
-                    <h4 className='text-[#F8B90C] text-xl font-semibold my-2'>ryangladhill</h4>
-                    <h5 className='text-white text-xl font-semibold'>Manager</h5> 
+                    <img className='rounded-full mt-6 w-20 h-20 mx-auto' src={ClientsImg3} alt="Client 3" />
+                    <h4 className='text-[#F8B90C] text-xl font-semibold my-2 text-center'>ryangladhill</h4>
+                    <h5 className='text-white text-center text-lg font-medium'>Manager</h5> 
                 </div>      
             </div>
         </div>

@@ -1,8 +1,8 @@
 
-import Hero from "./HeroSection";
-import CardSection from "./CardSection";
-import Protfolio from "./Protfolio";
-import Testimonials from "./Testimonials";
+import Hero from "./Hero";
+import AboutMe from "./AboutMe";
+import SkillSection from "./SkillSection";
+import Experience from "./Experience";
 import ContactSection from "./ContactSection";
 import { Helmet } from "react-helmet-async";
 
@@ -10,13 +10,13 @@ const Home = () => {
   return (
     <div className="">
       <Helmet>
-        <title>Protfolio | Home</title>
+        <title>Protfolio | About</title>
       </Helmet>
       <Hero/>
       <div className="p-2">
-        <CardSection/>
-        <Protfolio/>
-        <Testimonials/>
+        <AboutMe/>
+        <SkillSection/>
+        <Experience/>
         <ContactSection/>
       </div>
     </div>
