@@ -67,7 +67,7 @@ const Header = () => {
                         </li>
                         <li>
                             <NavLink
-                                to="/blog"
+                                to="/BlogPage"
                                 className="nav-link"
                                 activeClassName="bg-[#f8b90c]"
                             >
@@ -120,7 +120,7 @@ const Header = () => {
                     </li>
                     <li>
                         <NavLink
-                            to="/blog"
+                            to="/BlogPage"
                             className="nav-link"
                             activeClassName="bg-[#f8b90c]"
                         >
