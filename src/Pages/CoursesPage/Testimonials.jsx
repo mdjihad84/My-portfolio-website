@@ -4,7 +4,7 @@ import testimonialsData from '../../Component/CoursesData';
 
 const Testimonials = () => {
   return (
-    <div className="py-12 lg:py-24">
+    <div className="lg:py-24">
       <div className="text-center mt-12 lg:mt-24">
         <h2 className="text-3xl lg:text-[55px] text-white font-semibold">TESTIMONIALS</h2>
         <p className="text-[#F5B711] font-semibold mt-4 text-lg">What my Clients are saying?</p>

@@ -2,7 +2,7 @@ import React from 'react';
 
 const CardSection = () => {
     return (
-        <div className="p-4 lg:p-8">
+        <div className="lg:p-8">
             <div className="text-center mt-12 lg:mt-24">
                 <h2 className='text-3xl lg:text-[55px] text-white font-semibold'>What I do</h2>
                 <p className='text-[#F5B711] font-semibold mt-4 text-lg'>My Services</p>

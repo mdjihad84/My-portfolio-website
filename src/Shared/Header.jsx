@@ -36,65 +36,12 @@ const Header = () => {
                     <ul
                         tabIndex={0}
                         id="navbar-menu"
-                        className={`text-white text-xl font-bold menu menu-sm dropdown-content rounded-box z-[1] mt-3 w-52 p-2 shadow transition-all transform ease-in-out duration-300 ${isMenuOpen ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-[-10px]'}`}
+                        className={`text-white leading-10 font-me menu-sm dropdown-content rounded-box z-[1] mt-3 w-52 p-2 shadow transition-all transform ease-in-out duration-300 ${isMenuOpen ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-[-10px]'}`}
                     >
                         <li>
-                            <NavLink
-                                to="/"
-                                className="nav-link"
-                                activeClassName="bg-[#f8b90c]"
-                            >
-                                Home
-                            </NavLink>
-                        </li>
-                        <li>
-                            <NavLink
-                                to="/about"
-                                className="nav-link"
-                                activeClassName="bg-[#f8b90c]"
-                            >
-                                About Me
-                            </NavLink>
-                        </li>
-                        <li>
-                            <NavLink
-                                to="/courses"
-                                className="nav-link"
-                                activeClassName="bg-[#f8b90c]"
-                            >
-                                Courses
-                            </NavLink>
-                        </li>
-                        <li>
-                            <NavLink
-                                to="/BlogPage"
-                                className="nav-link"
-                                activeClassName="bg-[#f8b90c]"
-                            >
-                                Blog
-                            </NavLink>
-                        </li>
-                        <li>
-                            <NavLink
-                                to="/ContactPage"
-                                className="nav-link bg-[#f8b90c] shadow-[0 0 5px #f9c873] shadow-[#f9c873]"
-                                activeClassName="bg-[#f8b90c]"
-                            >
-                                Say Hello
-                            </NavLink>
-                        </li>
-                    </ul>
-                </div>
-                <NavLink to="/" className="text-3xl font-bold text-white">
-                    MD JIHAD
-                </NavLink>
-            </div>
-            <div className="navbar-center hidden lg:flex">
-                <ul className="text-white text-lg menu menu-horizontal px-1 gap-3">
-                    <li>
                         <NavLink
                             to="/"
-                            className="nav-link"
+                            className="hover:bg-[#f8b90c] rounded-[25px] hover:shadow-custom"
                             activeClassName="bg-[#f8b90c]"
                         >
                             Home
@@ -103,7 +50,7 @@ const Header = () => {
                     <li>
                         <NavLink
                             to="/about"
-                            className="nav-link"
+                            className="nav-link hover:bg-[#f8b90c] rounded-[25px] hover:shadow-custom"
                             activeClassName="bg-[#f8b90c]"
                         >
                             About Me
@@ -112,7 +59,7 @@ const Header = () => {
                     <li>
                         <NavLink
                             to="/Courses"
-                            className="nav-link"
+                            className="nav-link hover:bg-[#f8b90c] rounded-[25px] hover:shadow-custom"
                             activeClassName="bg-[#f8b90c]"
                         >
                             Courses
@@ -121,7 +68,7 @@ const Header = () => {
                     <li>
                         <NavLink
                             to="/BlogPage"
-                            className="nav-link"
+                            className="nav-link hover:bg-[#f8b90c] rounded-[25px] hover:shadow-custom"
                             activeClassName="bg-[#f8b90c]"
                         >
                             Blog
@@ -130,7 +77,60 @@ const Header = () => {
                     <li>
                         <NavLink
                             to="/ContactPage"
-                            className="nav-link bg-[#f8b90c] shadow-[0 0 5px #f9c873] shadow-[#f9c873]"
+                            className="nav-link bg-[#f8b90c] rounded-[25px] shadow-[0 0 5px #f9c873] shadow-custom"
+                            activeClassName="bg-[#f8b90c]"
+                        >
+                            Say Hello
+                        </NavLink>
+                    </li>
+                    </ul>
+                </div>
+                <NavLink to="/" className="text-3xl font-bold text-white">
+                    MD JIHAD
+                </NavLink>
+            </div>
+            <div className="navbar-center hidden lg:flex">
+                <ul className="text-white text-[17px] font-semibold menu-horizontal px-1 gap-8">
+                    <li>
+                        <NavLink
+                            to="/"
+                            className="hover:bg-[#f8b90c] px-[17px] py-3 rounded-[25px] hover:shadow-custom"
+                            activeClassName="bg-[#f8b90c]"
+                        >
+                            Home
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink
+                            to="/about"
+                            className="nav-link hover:bg-[#f8b90c] px-[15px] py-3 rounded-[25px] hover:shadow-custom"
+                            activeClassName="bg-[#f8b90c]"
+                        >
+                            About Me
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink
+                            to="/Courses"
+                            className="nav-link hover:bg-[#f8b90c] px-[15px] py-3 rounded-[25px] hover:shadow-custom"
+                            activeClassName="bg-[#f8b90c]"
+                        >
+                            Courses
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink
+                            to="/BlogPage"
+                            className="nav-link hover:bg-[#f8b90c] px-[17px] py-3 rounded-[25px] hover:shadow-custom"
+                            activeClassName="bg-[#f8b90c]"
+                        >
+                            Blog
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink
+                            to="/ContactPage"
+                            className="nav-link bg-[#f8b90c] px-[15px] py-3 rounded-[25px] shadow-[0 0 5px #f9c873] shadow-custom"
                             activeClassName="bg-[#f8b90c]"
                         >
                             Say Hello

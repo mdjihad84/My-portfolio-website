@@ -4,7 +4,7 @@ import ClientsImg3 from '../../assets/images/ryangladhill.jpg';
 
 const CardSection = () => {
     return (
-        <div className="p-4 lg:p-8">
+        <div className="lg:p-8">
             <div className="text-center mt-12 lg:mt-24">
                 <h2 className='text-3xl lg:text-[55px] text-white font-semibold'>TESTIMONIALS</h2>
                 <p className='text-[#F5B711] font-semibold mt-4 text-lg'>What my Clients are saying?</p>

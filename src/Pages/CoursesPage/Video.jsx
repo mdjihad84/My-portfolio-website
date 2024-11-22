@@ -2,7 +2,7 @@ import React from 'react';
 
 const Video = () => {
     return (
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto lg:px-4">
             <div className="text-center mt-12 lg:mt-24">
                 <h2 className="text-3xl lg:text-[55px] text-[#F5B711] font-semibold">Courses</h2>
                 <p className="text-white font-semibold mt-4 text-lg">

@@ -4,7 +4,7 @@ import portfolio3 from '../../assets/images/portfolio-img3.jpg';
 
 const CardSection = () => {
     return (
-        <div className="p-4 lg:p-8">
+        <div className="lg:p-8">
             <div className="text-center mt-12 lg:mt-24">
                 <h2 className='text-3xl lg:text-[55px] text-white font-semibold'>Portfolio</h2>
                 <p className='text-[#F5B711] font-semibold mt-2 text-lg'>MY Cases</p>

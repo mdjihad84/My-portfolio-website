@@ -2,7 +2,7 @@ import React from 'react';
 
 const Skill = () => {
     return (
-        <div className="my-10 flex flex-col md:flex-row justify-center gap-6 px-4">
+        <div className="my-10 flex flex-col md:flex-row justify-center gap-6 lg:px-4">
             {/* Education Section */}
             <div className="bg-[#1C2229] w-full md:w-[700px] p-[40px] rounded-xl">
                 <h2 className='text-3xl text-[#F8B90C] font-bold'>EDUCATION</h2>
