@@ -35,7 +35,7 @@ const Contact = () => {
         <div className="text-center lg:text-left mb-10 lg:mb-0">
           <img src={HandImg} alt="Hand" className="rounded-xl mx-auto lg:mx-0" />
           <h2 className="text-2xl lg:text-3xl font-semibold text-white mt-4">MD JAHIDUL ISLAM ( JIHAD )</h2>
-          <h3 className="text-xl text-white my-3">Web Developer (Back end)</h3>
+          <h3 className="text-xl text-white my-3">Web Developer (Font-end)</h3>
           <p className="text-lg text-white">Are You Looking For Your Business Online Presence? I am here. 🙂</p>
         </div>
         

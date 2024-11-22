@@ -1,9 +1,13 @@
+import SectionTitle from '../../Component/SectionTitle';
+
 const Experience = () => {
     return (
         <div className="">
-            <div className="text-center my-8">
-                <h2 className='text-3xl md:text-5xl text-[#F5B711] font-bold'>EXPERIENCE</h2>
-                <p className='text-lg md:text-xl font-semibold text-white'>What I have done?</p>
+            <div className="container mx-auto px-4 lg:mb-20">
+                <SectionTitle 
+                    title="EXPERIENCE​"
+                    subtitle="What I have done?​"
+                />
             </div>
             <div className="flex flex-col md:flex-row space-y-4 md:space-x-4 items-start p-6 py-10 bg-[#1C2229] rounded-xl shadow-md">
                 <div className="text-[#F5B711] text-5xl md:text-6xl mr-4">

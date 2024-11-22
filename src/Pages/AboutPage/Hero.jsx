@@ -13,7 +13,7 @@ const AboutHero = () => {
                     Md Jahidul Islam ( Jihad )
                 </h2>
                 <h4 className="text-base sm:text-lg md:text-xl text-gray-300 mt-2">
-                    Web Developer (WordPress)
+                    Web Developer ( Font-end )
                 </h4>
             </div>
         </div>

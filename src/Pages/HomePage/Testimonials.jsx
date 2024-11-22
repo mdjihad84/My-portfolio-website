@@ -1,13 +1,16 @@
 import ClientsImg1 from '../../assets/images/Clients.jpg';
 import ClientsImg2 from '../../assets/images/rossbrown.jpg';
 import ClientsImg3 from '../../assets/images/ryangladhill.jpg';
+import SectionTitle from '../../Component/SectionTitle';
 
 const CardSection = () => {
     return (
         <div className="lg:p-8">
-            <div className="text-center mt-12 lg:mt-24">
-                <h2 className='text-3xl lg:text-[55px] text-white font-semibold'>TESTIMONIALS</h2>
-                <p className='text-[#F5B711] font-semibold mt-4 text-lg'>What my Clients are saying?</p>
+            <div className="container mx-auto px-4">
+                <SectionTitle 
+                title="TESTIMONIALS​"
+                subtitle="What my Clients are saying?​"
+                />
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-24 my-8 lg:my-16 lg:ml-[-60px]">
                 {/* Testimonial 1 */}

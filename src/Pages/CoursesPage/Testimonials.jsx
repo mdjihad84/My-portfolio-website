@@ -1,16 +1,20 @@
-
-import React from 'react';
+import { NavLink } from 'react-router-dom';
 import testimonialsData from '../../Component/CoursesData';
+import SectionTitle from '../../Component/SectionTitle';
 
 const Testimonials = () => {
+  const displayedTestimonials = testimonialsData.slice(6, 12);
+
   return (
     <div className="lg:py-24">
-      <div className="text-center mt-12 lg:mt-24">
-        <h2 className="text-3xl lg:text-[55px] text-white font-semibold">TESTIMONIALS</h2>
-        <p className="text-[#F5B711] font-semibold mt-4 text-lg">What my Clients are saying?</p>
+      <div className="container mx-auto px-4">
+        <SectionTitle 
+          title="TESTIMONIALS"
+          subtitle="What my Clients are saying?"
+        />
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-16">
-        {testimonialsData.map((testimonial) => (
+        {displayedTestimonials.map((testimonial) => (
           <div
             key={testimonial.id}
             className="w-full max-w-md mx-auto py-8 bg-[#1C222A] text-white rounded-2xl shadow-lg p-6 transform transition duration-300 hover:scale-105 hover:shadow-xl"
@@ -34,13 +38,16 @@ const Testimonials = () => {
         ))}
       </div>
       <div className="flex justify-center items-center my-8">
-        <button className="text-white text-base lg:text-lg font-semibold lg:px-[30px] font-Sans-serif w-[265px] lg:w-[245px] h-[48px] lg:h-[58px] rounded-full bg-[#f8b90c] shadow-custom flex items-center justify-center text-center animate-button-move">
-          INSTRUCTOR PROFILE
-        </button>
+        <NavLink to="/ContactPage">
+          <button className="text-white text-[12px] lg:text-lg font-semibold lg:px-[30px] font-Sans-serif w-[165px] lg:w-[245px] h-[48px] lg:h-[58px] rounded-full bg-[#f8b90c] shadow-custom flex items-center justify-center text-center animate-button-move">
+            INSTRUCTOR PROFILE
+          </button>
+        </NavLink>
       </div>
     </div>
   );
 };
 
 export default Testimonials;
+
 

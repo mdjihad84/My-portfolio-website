@@ -1,5 +1,5 @@
 
-import VideoPage from "./Video";
+import CoursesCard from "./CoursesCard";
 import Testimonials from "./Testimonials";
 import { Helmet } from "react-helmet-async";
 
@@ -7,10 +7,10 @@ const Home = () => {
   return (
     <div className="">
       <Helmet>
-        <title>Protfolio | Home</title>
+        <title>Protfolio | Courses</title>
       </Helmet>
       <div className="p-2">
-      <VideoPage/>
+      <CoursesCard/>
       <Testimonials/>
       </div>
     </div>

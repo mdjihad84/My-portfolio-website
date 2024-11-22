@@ -1,11 +1,14 @@
-import React from 'react';
+import { NavLink } from "react-router-dom";
+import SectionTitle from '../../Component/SectionTitle';
 
 const CardSection = () => {
     return (
         <div className="lg:p-8">
-            <div className="text-center mt-12 lg:mt-24">
-                <h2 className='text-3xl lg:text-[55px] text-white font-semibold'>What I do</h2>
-                <p className='text-[#F5B711] font-semibold mt-4 text-lg'>My Services</p>
+            <div className="container mx-auto px-4">
+                <SectionTitle 
+                title="What I do​"
+                subtitle="My Services​"
+                />
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-24 my-8 lg:my-16 lg:ml-[-60px]">
                 {/* Card 1 */}
@@ -17,7 +20,9 @@ const CardSection = () => {
                     </p>
                     <h4 className="mt-6 flex items-center gap-2 text-white font-semibold">
                         Say Hello
-                        <i className="cursor-pointer text-[#f8b90c] fa-solid fa-arrow-right mt-[2px]"></i>
+                        <NavLink to="/BlogPage">
+                            <i className="cursor-pointer text-[#f8b90c] fa-solid fa-arrow-right mt-[6px] ml-2"></i>
+                        </NavLink>
                     </h4>
                 </div>
                 {/* Card 2 */}
@@ -29,7 +34,9 @@ const CardSection = () => {
                     </p>
                     <h4 className="mt-6 flex items-center gap-2 text-white font-semibold">
                         Say Hello
-                        <i className="cursor-pointer text-[#f8b90c] fa-solid fa-arrow-right mt-[2px]"></i>
+                        <NavLink to="/BlogPage">
+                            <i className="cursor-pointer text-[#f8b90c] fa-solid fa-arrow-right mt-[6px] ml-2"></i>
+                        </NavLink>
                     </h4>
                 </div>
                 {/* Card 3 */}
@@ -41,7 +48,9 @@ const CardSection = () => {
                     </p>
                     <h4 className="mt-6 flex items-center gap-2 text-white font-semibold">
                         Say Hello
-                        <i className="cursor-pointer text-[#f8b90c] fa-solid fa-arrow-right mt-[2px]"></i>
+                        <NavLink to="/BlogPage">
+                            <i className="cursor-pointer text-[#f8b90c] fa-solid fa-arrow-right mt-[6px] ml-2"></i>
+                        </NavLink>
                     </h4>
                 </div>
             </div>
