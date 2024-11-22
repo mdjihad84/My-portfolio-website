@@ -76,7 +76,7 @@ const Header = () => {
                         </li>
                         <li>
                             <NavLink
-                                to="/contact"
+                                to="/ContactPage"
                                 className="nav-link bg-[#f8b90c] shadow-[0 0 5px #f9c873] shadow-[#f9c873]"
                                 activeClassName="bg-[#f8b90c]"
                             >
@@ -129,7 +129,7 @@ const Header = () => {
                     </li>
                     <li>
                         <NavLink
-                            to="/contact"
+                            to="/ContactPage"
                             className="nav-link bg-[#f8b90c] shadow-[0 0 5px #f9c873] shadow-[#f9c873]"
                             activeClassName="bg-[#f8b90c]"
                         >
